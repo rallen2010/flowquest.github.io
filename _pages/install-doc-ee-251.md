@@ -47,9 +47,10 @@ Then follow one of these two paths to install a new environment or migrate an ex
 
 You will need:
 
-1. to be running Oracle APEX 24.1 or later 
-2. to be running Oracle database 19c or later
+1. to be running Oracle APEX 24.1 or later.
+2. to be running Oracle database 19c or later.
 3. have a running Flows for APEX 25.1 Community Edition installation.
+4. to have the required privileges (see above).
 
 You then install the Enterprise Edition **on-top** of the Community Edition.  The installation sets up Oracle Advanced Queueing, installs some missing PL/SQL package bodies and SQL views, recompiles everything, and gives you an Enterprise Edition system.  To do this:
 
@@ -70,8 +71,9 @@ You then install the Enterprise Edition **on-top** of the Community Edition.  Th
 
 You will need:
 
-1. to be running Oracle APEX 24.1 or later 
-2. to be running Oracle database 19c or later
+1. to be running Oracle APEX 24.1 or later.
+2. to be running Oracle database 19c or later.
+3. to have the required privileges on the Flows for APEX Schema.  (Note new privileges required for 25.1)
 
 The migration path in overview is:
  1. Prevent access to the system by users.
