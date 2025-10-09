@@ -27,7 +27,7 @@ Flows for APEX Enterrise Edition v25.1 has a single installation process (unlike
 
 - Database: Installation requires Oracle Database 19c or later.
 
-- Privileges:  The APEX Schema requires the following privileges,  grants, and roles:
+- Privileges:  The Flows for APEX Schema requires the following privileges,  grants, and roles:
 
     | Type              | Required                                                     |
     | ----------------- | ------------------------------------------------------------ |
