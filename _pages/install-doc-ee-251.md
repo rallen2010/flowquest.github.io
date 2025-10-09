@@ -13,12 +13,6 @@ header:
 
 Flows for APEX Enterrise Edition v25.1 has a single installation process (unlike v24.1, where the Ask Flo AI was optional).  
 
-Note the pre-requisites are:
-
--  If you are installing *WITH* the AI feature, you need to be running Oracle APEX v24.1 or later, and have an OpenAI API key with a pre-paid credit balance. This install will replace the Flows for APEX application with an APEX 24.1 app.
-
-- If you can't meet these requirements, or choose not to run the AI feature, you can run Flows for APEX Enterprise Edition with Oracle APEX v22.1 or later.  This installation does not replace the Flows for APEX application that you installed with the Community Edition.
-
 ## Pre-Requisites 
 
 -  You need a working Flows for APEX v25.1 Community Edition installation before you start - the Enterprise Edition instals on top of the Community Edition.  
@@ -33,7 +27,17 @@ Note the pre-requisites are:
 
 - Database: Installation requires Oracle Database 19c or later.
 
--  To run the AI feature, you need to set up a Workspace-level Generative AI service for Flows for APEX, using OpenAI with the `gpt-4o` model with a static ID defined in APEX as `F4A_AI_SERVICE`.  For detailed instructions, see below.  
+- Privileges:  The APEX Schema requires the following privileges,  grants, and roles:
+
+    | Type              | Required                                                     |
+    | ----------------- | ------------------------------------------------------------ |
+    | System Privileges | CREATE TABLE<br />CREATE PROCEDURE<br />CREATE SEQUENCE<br />CREATE VIEW<br />CREATE JOB<br />CREATE. TYPE |
+    | System Roles      | AQ_ADMINISTRATOR_ROLE<br />AQ_USER_ROLE                      |
+    | System Packages   | execute privilege on DBMS_AQ                                 |
+
+    These are checked by the Installer before the Enterprise Edition can be installed.
+
+- To run the AI feature, you need to set up a Workspace-level Generative AI service for Flows for APEX, using OpenAI with the `gpt-4o` model with a static ID defined in APEX as `F4A_AI_SERVICE`.  For detailed instructions, see below.  
 
 - If you are not using / not able to use the AI features, the 25.1 Community Edition APEX app installation should have already created a dummy AI service for you named `F4A_AI_SERVICE` that just links to `example.com` and is non-functional.  This is sufficient.  You can edit this definition later (in Application Builder > Workspace Options), once you are ready to use AI.
 
