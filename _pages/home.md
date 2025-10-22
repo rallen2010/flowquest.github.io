@@ -25,7 +25,7 @@ row4:
         target: "_blank"
         class: "btn--info"
         label: '<i aria-hidden="true" style="padding-right: 5px;"></i>See More Details on 25.1'
-      - url: "https://youtu.be/zSOBjRgtou8?si=fKYG71gdlOc"
+      - url: "https://www.youtube.com/watch?v=fKYG71gdlOc"
         target: "_blank"
         class: "btn--info"
         label: '<i class="far fa-play-circle" aria-hidden="true" style="padding-right: 5px;"></i>Watch the Replay'
