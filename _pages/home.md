@@ -13,7 +13,7 @@ row4:
   - title: >
       Flowquest was on "What's New in Flows for APEX v25.1" on APEX Office Hours
     excerpt: >
-       Moritz Klein and Richard Allen from the Flows for APEX team demoed Flows for APEX v25.1 new features in a live Oracle APEX Office Hours session on Thursday September 25th.  What's New in Flows for APEX v 25.1 - **Smarter BPMN Workflows with AI, Suspend and Rewind**.  Replay wil be available online soon, including demos for:
+       Moritz Klein and Richard Allen from the Flows for APEX team demoed Flows for APEX v25.1 new features in a live Oracle APEX Office Hours session on Thursday September 25th.  What's New in Flows for APEX v 25.1 - **Smarter BPMN Workflows with AI, Suspend and Rewind**.  Watch the replay to see demos for:
         - AI Service Tasks - Adding GenAI into your Workflow
         - Suspend/Resume for running processes
         - Rewind to recover from bad data or bad user decisions
@@ -25,6 +25,10 @@ row4:
         target: "_blank"
         class: "btn--info"
         label: '<i aria-hidden="true" style="padding-right: 5px;"></i>See More Details on 25.1'
+      - url: "https://youtu.be/zSOBjRgtou8?si=fKYG71gdlOc"
+        target: "_blank"
+        class: "btn--info"
+        label: '<i class="far fa-play-circle" aria-hidden="true" style="padding-right: 5px;"></i>Watch the Replay'
 row2:
   - title: >
       Watch "What's New in Flows for APEX v24.1" on APEX Office Hours
