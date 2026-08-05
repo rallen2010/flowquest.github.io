@@ -63,7 +63,7 @@ row5:
       Sign up for this free event now!
     image_path: "/assets/logos/OAPAUG-logo.jpeg"
     actions: 
-      - url: "https://lnkd.in/ebVr4Nw5"
+      - url: "https://us06web.zoom.us/meeting/register/iewe3_nmTaO4yM7IxUxJlw"
         target: "_blank"
         class: "btn--info"
         label: '<i class="far fa-play-circle" aria-hidden="true" style="padding-right: 5px;"></i>Sign up now'
